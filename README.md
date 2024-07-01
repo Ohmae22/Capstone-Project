@@ -26,8 +26,6 @@
 
   <img width="511" alt="Screenshot 2024-07-01 at 8 37 53 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/9456d8c9-3156-4031-bd75-0fc7da4b4e7c">
 
-  <img width="774" alt="Screenshot 2024-07-01 at 8 37 32 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/55878198-1bbe-4d12-a4ea-61084034ceab">
-
   <img width="706" alt="Screenshot 2024-07-01 at 8 41 33 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/03b1ba4e-2bfa-4614-8bfa-20e3305bc4d0">
 
 
@@ -133,6 +131,9 @@
     - Insight:
       - The age distribution shows distinct patterns for low and high-risk categories.
       - Higher age tends to have a higher risk of hypertension.
+
+
+  <img width="774" alt="Screenshot 2024-07-01 at 8 37 32 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/55878198-1bbe-4d12-a4ea-61084034ceab">
 
 3. Gender and Risk
 
