@@ -208,7 +208,8 @@
 
 # Outline of project
 
-1. https://github.com/Ohmae22/Capstone-Project
+1. https://github.com/Ohmae22/Capstone-Project/blob/main/EDA.ipynb
+2. 
 
 # Contact and Further Information
 
