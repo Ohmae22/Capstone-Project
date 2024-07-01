@@ -161,6 +161,8 @@
   - Strong correlations observed between sysBP and diaBP, and between age and other features.
   - Helps in identifying multicollinearity and significant predictors for hypertension risk.
 
+<img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
+
 7. Box Plots for Key Numerical Features
 
 - Visualization: Box plots of numerical features (age, cigsPerDay, totChol, sysBP, diaBP, BMI, heartRate, glucose) against Risk.
@@ -191,7 +193,7 @@
   
 <img width="845" alt="Screenshot 2024-07-01 at 8 42 49 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ed35c40a-7089-4176-a230-116fd5c88f87">
 
-<img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
+
 
 
 # Next steps
