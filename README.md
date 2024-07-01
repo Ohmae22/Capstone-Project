@@ -1,1 +1,128 @@
-# Capstone-Project
+# Predicting Hypertension Risk: A Machine Learning Approach
+
+# Author: Teoh Leng Wah
+
+# Executive summary
+- This capstone project aims to develop an accurate and efficient machine learning model for predicting hypertension risk based on various health metrics and risk factors. By analyzing a dataset of patient health information, explore and compare different machine learning techniques to identify the most effective approach for this crucial healthcare challenge.
+- The project demonstrates the potential of data-driven approaches in preventive healthcare, particularly in managing hypertension, a leading cause of cardiovascular diseases worldwide.
+
+# Rationale
+- Hypertension, often called the "silent killer," is a major global health concern due to its lack of obvious symptoms and its role as a primary risk factor for heart disease and stroke.
+- Early identification of individuals at high risk of developing hypertension is crucial for timely intervention and prevention. This project leverages machine learning techniques to create a predictive model that can assist healthcare professionals in identifying at-risk individuals, potentially leading to more targeted preventive measures and improved patient outcomes.
+
+# Research Question
+- Our primary research question is: "Which machine learning technique yields the highest accuracy in predicting hypertension risk based on patient data, including demographics, lifestyle factors, and health metrics?"
+- Additionally, we aim to identify the most important features contributing to hypertension risk prediction and explore how to optimize the selected machine learning model to improve its performance and generalizability.
+
+# Data Sources
+- Utilized the "Hypertension-risk-model-main.csv" dataset, which contains various health-related features including:
+
+    - Demographic information (age, gender)
+    - Lifestyle factors (smoking habits)
+    - Clinical measurements (blood pressure, cholesterol levels, BMI, heart rate, glucose levels)
+    - Medical history (diabetes, use of BP medication)
+
+- The dataset comprises 4,240 entries with 13 columns, containing both integer and float data types.
+
+# Methodology
+- Our approach followed these key steps:
+
+1. Data Preprocessing:
+
+    - Handled missing values in several columns (cigsPerDay, BPMeds, totChol, BMI, heartRate, glucose)
+    - Encoded categorical variables
+    - Scaled numerical features
+
+
+2. Exploratory Data Analysis (EDA):
+
+    - Analyzed the distribution of the target variable (Risk)
+    - Explored relationships between features and hypertension risk
+    - Created visualizations to understand feature interactions and distributions
+
+
+3. Feature Selection and Engineering:
+
+    - Identified key predictive features based on correlation analysis and domain knowledge
+    - Engineered new features as needed
+
+
+4. Model Development:
+
+    - Split data into training and testing sets
+    - Implemented multiple models:
+
+      a) Logistic Regression
+      b) Decision Tree
+
+5. Model Evaluation:
+
+    - Utilized cross-validation to ensure robust performance estimates
+    - Assessed models using metrics such as accuracy, precision, recall, and F1-score
+    - Visualized results using confusion matrices and ROC curves
+
+
+6. Hyperparameter Tuning:
+
+    - Performed GridSearchCV on the best-performing model to optimize its parameters
+
+
+7. Interpretation and Insights:
+
+    - Analyzed feature importance
+    - Interpreted model results in the context of hypertension risk prediction
+
+# Results
+
+- Our analysis yielded the following key findings:
+
+1. Model Performance: xxxx
+
+2. Key Predictive Features:
+
+  a) Systolic Blood Pressure (sysBP)
+  b) Age
+  c) Body Mass Index (BMI)
+  d) Diastolic Blood Pressure (diaBP)
+  e) Total Cholesterol (totChol)
+
+3. Risk Factors:
+
+  a) Age is strongly correlated with increased hypertension risk
+  b) Males have a slightly higher proportion of high-risk cases
+  c) Higher BMI is associated with increased risk
+  d) Current smokers and individuals with diabetes show higher risk
+
+
+# Dataset Characteristics:
+
+- Imbalanced dataset: 68.81% low risk, 31.19% high risk
+- This imbalance was addressed during model development
+
+
+# Feature Relationships:
+
+- Strong correlation observed between systolic and diastolic blood pressure
+- Age correlates with several other features
+
+# Next steps
+
+- To further enhance this project, we recommend:
+
+1. Expanding the dataset to include more diverse populations, ensuring better model generalization
+2. Exploring advanced ensemble methods or deep learning approaches for potentially higher predictive accuracy
+3. Developing a user-friendly interface or API to make the model accessible to healthcare professionals
+4. Conducting a longitudinal study to validate the model's predictive power over time
+5. Investigating the potential for personalized risk factor identification to guide individual preventive measures
+6. Incorporating additional relevant features such as family history or dietary habits
+7. Collaborating with healthcare professionals to validate and refine the model's clinical applicability
+
+# Outline of project
+
+1. Link to Exploratory Data Analysis Notebook
+2. Link to Model Development and Evaluation Notebook
+3. Link to Final Results and Interpretation Notebook
+
+# Contact and Further Information
+
+[GitHub Profile]
