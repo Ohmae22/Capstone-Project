@@ -99,11 +99,17 @@
 - Imbalanced dataset: 68.81% low risk, 31.19% high risk
 - This imbalance was addressed during model development
 
+  <img width="695" alt="Screenshot 2024-07-01 at 8 22 51 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/172c2581-4446-4ba6-97e0-a9ce06ca1726">
+
+
 
 # Feature Relationships:
 
 - Strong correlation observed between systolic and diastolic blood pressure
 - Age correlates with several other features
+
+  <img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
+
 
 # Next steps
 
