@@ -24,6 +24,14 @@
 
 - The dataset comprises 4,240 entries with 13 columns, containing both integer and float data types.
 
+  <img width="511" alt="Screenshot 2024-07-01 at 8 37 53 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/9456d8c9-3156-4031-bd75-0fc7da4b4e7c">
+
+  <img width="774" alt="Screenshot 2024-07-01 at 8 37 32 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/55878198-1bbe-4d12-a4ea-61084034ceab">
+
+  <img width="706" alt="Screenshot 2024-07-01 at 8 41 33 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/03b1ba4e-2bfa-4614-8bfa-20e3305bc4d0">
+
+
+
 # Methodology
 - Our approach followed these key steps:
 
@@ -176,8 +184,10 @@
 
 - Strong correlation observed between systolic and diastolic blood pressure
 - Age correlates with several other features
+  
+<img width="845" alt="Screenshot 2024-07-01 at 8 42 49 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ed35c40a-7089-4176-a230-116fd5c88f87">
 
-  <img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
+<img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
 
 
 # Next steps
