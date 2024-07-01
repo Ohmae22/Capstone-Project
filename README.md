@@ -212,4 +212,4 @@
 
 # Contact and Further Information
 
-[GitHub Profile]
+https://github.com/Ohmae22
