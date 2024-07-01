@@ -101,6 +101,75 @@
 
   <img width="695" alt="Screenshot 2024-07-01 at 8 22 51 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/172c2581-4446-4ba6-97e0-a9ce06ca1726">
 
+## EDA Insights
+
+### Basic Dataset Information
+
+- Total Entries: 4240
+- Columns: 13
+- Data Types: The dataset includes both integer and float types.
+- Missing Values: - cigsPerDay: 29 missing - BPMeds: 53 missing - totChol: 50 missing - BMI: 19 missing - heartRate: 1 missing - glucose: 388 missing
+
+1. Distribution of Target Variable
+        - Visualization: Count plot of the Risk variable.
+        - Insight:
+           - The dataset is imbalanced with 68.81% low risk (0) and 31.19% high risk (1).
+           - Understanding this imbalance is crucial for model training and evaluation.
+
+2. Age Distribution
+    - Visualization: Histogram of age colored by Risk with KDE.
+    - Insight:
+      - The age distribution shows distinct patterns for low and high-risk categories.
+      - Higher age tends to have a higher risk of hypertension.
+
+3. Gender and Risk
+
+    - Visualization: Count plot of male variable with Risk as hue.
+    - Insight:
+        - Males have a slightly higher proportion of high-risk cases compared to females.
+
+4. BMI Distribution
+
+    - Visualization: Histogram of BMI colored by Risk with KDE and vertical lines for overweight and obese thresholds.
+    - Insight:
+      - High BMI is correlated with higher hypertension risk.
+      - Thresholds show that many individuals in the high-risk category fall into overweight and obese ranges.
+
+5. Blood Pressure Scatter Plot
+
+    - Visualization: Scatter plot of sysBP vs. diaBP colored by Risk.
+    - Insight:
+      - There is a clear distinction between systolic and diastolic blood pressure in relation to hypertension risk.
+      - High-risk individuals generally have higher systolic and diastolic blood pressures.
+        
+6. Correlation Heatmap
+
+- Visualization: Heatmap of the correlation matrix of features.
+- Insight:
+  - Strong correlations observed between sysBP and diaBP, and between age and other features.
+  - Helps in identifying multicollinearity and significant predictors for hypertension risk.
+
+7. Box Plots for Key Numerical Features
+
+- Visualization: Box plots of numerical features (age, cigsPerDay, totChol, sysBP, diaBP, BMI, heartRate, glucose) against Risk.
+- Insight:
+  - These plots highlight significant differences in the distribution of numerical features between low and high-risk categories.
+  - Notable differences are observed in sysBP, diaBP, and BMI.
+    
+8. Smoking Status and Risk
+
+- Visualization: Count plot of currentSmoker with Risk as hue.
+- Insight:
+  - Current smokers are more likely to be in the high-risk category.
+  - Smoking status is a significant factor in hypertension risk.
+
+9. Diabetes and Risk
+
+- Visualization: Count plot of diabetes with Risk as hue.
+- Insight:
+  - Individuals with diabetes are more likely to be at high risk of hypertension.
+  - - Diabetes status is a significant predictor of hypertension risk.
+
 
 
 # Feature Relationships:
