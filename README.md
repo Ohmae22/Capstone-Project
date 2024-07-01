@@ -207,13 +207,16 @@
 
 - To further enhance this project, we recommend:
 
-1. Expanding the dataset to include more diverse populations, ensuring better model generalization
-2. Exploring advanced ensemble methods or deep learning approaches for potentially higher predictive accuracy
-3. Developing a user-friendly interface or API to make the model accessible to healthcare professionals
-4. Conducting a longitudinal study to validate the model's predictive power over time
-5. Investigating the potential for personalized risk factor identification to guide individual preventive measures
-6. Incorporating additional relevant features such as family history or dietary habits
-7. Collaborating with healthcare professionals to validate and refine the model's clinical applicability
+1. Conduct feature engineering to compare initial result
+2. Expanding the dataset to include more diverse populations, ensuring better model generalization
+3. Exploring advanced ensemble methods or deep learning approaches for potentially higher predictive accuracy
+4. Developing a user-friendly interface or API to make the model accessible to healthcare professionals
+5. Conducting a longitudinal study to validate the model's predictive power over time
+6. Investigating the potential for personalized risk factor identification to guide individual preventive measures
+7. Incorporating additional relevant features such as family history or dietary habits
+8. Collaborating with healthcare professionals to validate and refine the model's clinical applicability
+
+
 
 # Outline of project
 
