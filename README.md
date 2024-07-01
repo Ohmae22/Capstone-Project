@@ -30,27 +30,27 @@
 # Methodology
 - Our approach followed these key steps:
 
-1. Data Preprocessing:
+## 1. Data Preprocessing:
 
     - Handled missing values in several columns (cigsPerDay, BPMeds, totChol, BMI, heartRate, glucose)
     - Encoded categorical variables
     - Scaled numerical features
 
 
-2. Exploratory Data Analysis (EDA):
+## 2. Exploratory Data Analysis (EDA):
 
     - Analyzed the distribution of the target variable (Risk)
     - Explored relationships between features and hypertension risk
     - Created visualizations to understand feature interactions and distributions
 
 
-3. Feature Selection and Engineering:
+## 3. Feature Selection and Engineering:
 
     - Applied Principal Component Analysis (PCA) for dimensionality reduction
     - Utilized Sequential Feature Selection (SFS) to identify optimal feature subsets
 
 
-4. Model Development:
+## 4. Model Development:
 
     - Split data into training and testing sets
     - Implemented multiple models:
@@ -60,19 +60,19 @@
       c) Ridge Regression
       d) Lasso Regression
 
-5. Model Evaluation:
+## 5. Model Evaluation:
 
     - Utilized cross-validation to ensure robust performance estimates
     - Assessed models using appropriate metrics (e.g., MSE, RMSE for regression tasks)
     - Compared the performance of different techniques
 
 
-6. Hyperparameter Tuning:
+## 6. Hyperparameter Tuning:
 
     - Performed GridSearchCV on the best-performing model to optimize its parameters
 
 
-7. Interpretation and Insights:
+## 7. Interpretation and Insights:
 
     - Analyzed feature importance
     - Interpreted model results in the context of hypertension risk prediction
@@ -81,27 +81,27 @@
 
 - Our analysis yielded the following key findings:
 
-1. Model Performance:
+## 1. Model Performance:
 
 <img width="342" alt="Screenshot 2024-07-01 at 9 49 04 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ea25c5d9-9596-45f5-96e5-2d0a2e1a5239">
 
   - Key Observations:
     
     - Improvement with Feature Engineering:
-      a) Both Linear Regression and Ridge Regression models showed improvement in performance when polynomial features were added. This is evidenced by a decrease in MSE and an increase in R^2 values.
-      b) Specifically, the MSE for Linear Regression dropped from 0.489975 to 0.475583, and the R^2 value increased from 0.498800 to 0.513522.
-      c) Similarly, Ridge Regression saw a decrease in MSE from 0.489973 to 0.475056, and the R^2 value increased from 0.498802 to 0.514061.
+      - a) Both Linear Regression and Ridge Regression models showed improvement in performance when polynomial features were added. This is evidenced by a decrease in MSE and an increase in R^2 values.
+      - b) Specifically, the MSE for Linear Regression dropped from 0.489975 to 0.475583, and the R^2 value increased from 0.498800 to 0.513522.
+      - c) Similarly, Ridge Regression saw a decrease in MSE from 0.489973 to 0.475056, and the R^2 value increased from 0.498802 to 0.514061.
 
     - Lasso Regression Performance:
-      a) The Lasso Regression model did not show any improvement with the addition of polynomial features. The MSE and R^2 values remained the same, indicating that Lasso Regression did not benefit from the feature engineering in this context.
+      - a) The Lasso Regression model did not show any improvement with the addition of polynomial features. The MSE and R^2 values remained the same, indicating that Lasso Regression did not benefit from the feature engineering in this context.
   
     - Best Performing Model:
-    a) The best performing model overall is the Ridge Regression with Polynomial Features, with the lowest MSE of 0.475056 and the highest R^2 value of 0.514061. This suggests that Ridge Regression with polynomial features captures the underlying patterns in the data more effectively compared to other models.
+      - a) The best performing model overall is the Ridge Regression with Polynomial Features, with the lowest MSE of 0.475056 and the highest R^2 value of 0.514061. This suggests that Ridge Regression with polynomial features captures the underlying patterns in the data more effectively compared to other models.
 
     - Feature Engineering Effectiveness:
-    a) The use of polynomial features has proven to be effective in improving the performance of Linear and Ridge Regression models, but not for Lasso Regression. This indicates that feature engineering can be highly beneficial but its impact can vary depending on the model used.
+      - a) The use of polynomial features has proven to be effective in improving the performance of Linear and Ridge Regression models, but not for Lasso Regression. This indicates that feature engineering can be highly beneficial but its impact can vary depending on the model used.
 
-2. Key Predictive Features:
+## 2. Key Predictive Features:
 
   a) Systolic Blood Pressure (sysBP)
   b) Age
@@ -109,7 +109,7 @@
   d) Diastolic Blood Pressure (diaBP)
   e) Total Cholesterol (totChol)
 
-3. Risk Factors:
+## 3. Risk Factors:
 
   a) Age is strongly correlated with increased hypertension risk
   b) Males have a slightly higher proportion of high-risk cases
@@ -133,13 +133,13 @@
 - Data Types: The dataset includes both integer and float types.
 - Missing Values: - cigsPerDay: 29 missing - BPMeds: 53 missing - totChol: 50 missing - BMI: 19 missing - heartRate: 1 missing - glucose: 388 missing
 
-1. Distribution of Target Variable
+## 1. Distribution of Target Variable
         - Visualization: Count plot of the Risk variable.
         - Insight:
            - The dataset is imbalanced with 68.81% low risk (0) and 31.19% high risk (1).
            - Understanding this imbalance is crucial for model training and evaluation.
 
-2. Age Distribution
+## 2. Age Distribution
     - Visualization: Histogram of age colored by Risk with KDE.
     - Insight:
       - The age distribution shows distinct patterns for low and high-risk categories.
@@ -148,7 +148,7 @@
 
   <img width="774" alt="Screenshot 2024-07-01 at 8 37 32 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/55878198-1bbe-4d12-a4ea-61084034ceab">
 
-3. Gender and Risk
+## 3. Gender and Risk
 
     - Visualization: Count plot of male variable with Risk as hue.
     - Insight:
@@ -156,7 +156,7 @@
 
     <img width="706" alt="Screenshot 2024-07-01 at 8 41 33 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/03b1ba4e-2bfa-4614-8bfa-20e3305bc4d0">
 
-4. BMI Distribution
+## 4. BMI Distribution
 
     - Visualization: Histogram of BMI colored by Risk with KDE and vertical lines for overweight and obese thresholds.
     - Insight:
@@ -165,7 +165,7 @@
 
 <img width="792" alt="Screenshot 2024-07-01 at 9 33 53 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/54d1d28d-2f32-4992-8072-ca65aa8f6d6f">
 
-5. Blood Pressure Scatter Plot
+## 5. Blood Pressure Scatter Plot
 
     - Visualization: Scatter plot of sysBP vs. diaBP colored by Risk.
     - Insight:
@@ -174,7 +174,7 @@
      
   <img width="845" alt="Screenshot 2024-07-01 at 8 42 49 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ed35c40a-7089-4176-a230-116fd5c88f87">
         
-6. Correlation Heatmap
+## 6. Correlation Heatmap
 
 - Visualization: Heatmap of the correlation matrix of features.
 - Insight:
@@ -183,21 +183,21 @@
 
 <img width="917" alt="Screenshot 2024-07-01 at 8 22 05 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/758d3f51-2876-451a-b5de-a226938d7cfc">
 
-7. Box Plots for Key Numerical Features
+## 7. Box Plots for Key Numerical Features
 
 - Visualization: Box plots of numerical features (age, cigsPerDay, totChol, sysBP, diaBP, BMI, heartRate, glucose) against Risk.
 - Insight:
   - These plots highlight significant differences in the distribution of numerical features between low and high-risk categories.
   - Notable differences are observed in sysBP, diaBP, and BMI.
     
-8. Smoking Status and Risk
+## 8. Smoking Status and Risk
 
 - Visualization: Count plot of currentSmoker with Risk as hue.
 - Insight:
   - Current smokers are more likely to be in the high-risk category.
   - Smoking status is a significant factor in hypertension risk.
 
-9. Diabetes and Risk
+## 9. Diabetes and Risk
 
 - Visualization: Count plot of diabetes with Risk as hue.
 - Insight:
