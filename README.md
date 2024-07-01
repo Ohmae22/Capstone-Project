@@ -3,19 +3,16 @@
 # Author: Teoh Leng Wah
 
 # Executive summary
-- This capstone project aims to develop an accurate and efficient machine learning model for predicting hypertension risk based on various health metrics and risk factors. By analyzing a dataset of patient health information, we explore and compare different machine learning techniques to identify the most effective approach for this crucial healthcare challenge. The project demonstrates the potential of data-driven approaches in preventive healthcare, particularly in managing hypertension, a leading cause of cardiovascular diseases worldwide.
+- This capstone project aims to develop an accurate and efficient model for predicting hypertension risk based on various health metrics and risk factors. By comparing different machine learning techniques, we explore the most effective approach for this crucial healthcare challenge. Our study focuses on K-Means Clustering, Principal Component Analysis (PCA), linear regression, ridge regression, lasso regression, and Sequential Feature Selection (SFS) to identify the best method for predicting hypertension risk.
 
 # Rationale
-- Hypertension, often called the "silent killer," is a major global health concern due to its lack of obvious symptoms and its role as a primary risk factor for heart disease and stroke.
-- Early identification of individuals at high risk of developing hypertension is crucial for timely intervention and prevention. This project leverages machine learning techniques to create a predictive model that can assist healthcare professionals in identifying at-risk individuals, potentially leading to more targeted preventive measures and improved patient outcomes.
-
+- Hypertension is a leading cause of cardiovascular diseases worldwide. Early identification of individuals at high risk of developing hypertension is crucial for timely intervention and prevention. This project leverages various machine learning techniques to create predictive models that can assist healthcare professionals in identifying at-risk individuals, potentially leading to more targeted preventive measures and improved patient outcomes.
+  
 # Research Question
 - The study addresses the following key research questions:
     - Which machine learning technique (K-Means Clustering, PCA, linear regression, ridge regression, lasso regression, SFS) yields the highest accuracy in predicting hypertension risk?
     - What are the most important features or risk factors contributing to hypertension risk prediction?
     - How can we optimize the selected machine learning model to improve its performance and generalizability?
-- Our primary research question is: "Which machine learning technique yields the highest accuracy in predicting hypertension risk based on patient data, including demographics, lifestyle factors, and health metrics?"
-- Additionally, we aim to identify the most important features contributing to hypertension risk prediction and explore how to optimize the selected machine learning model to improve its performance and generalizability.
 
 # Data Sources
 - Utilized the "Hypertension-risk-model-main.csv" dataset, which contains various health-related features including:
@@ -54,8 +51,8 @@
 
 3. Feature Selection and Engineering:
 
-    - Identified key predictive features based on correlation analysis and domain knowledge
-    - Engineered new features as needed
+    - Applied Principal Component Analysis (PCA) for dimensionality reduction
+    - Utilized Sequential Feature Selection (SFS) to identify optimal feature subsets
 
 
 4. Model Development:
@@ -63,14 +60,16 @@
     - Split data into training and testing sets
     - Implemented multiple models:
 
-      a) Logistic Regression
-      b) Decision Tree
+      a) K-Mans Clustering
+      b) Linear Regression
+      c) Ridge Regression
+      d) Lasso Regression
 
 5. Model Evaluation:
 
     - Utilized cross-validation to ensure robust performance estimates
-    - Assessed models using metrics such as accuracy, precision, recall, and F1-score
-    - Visualized results using confusion matrices and ROC curves
+    - Assessed models using appropriate metrics (e.g., MSE, RMSE for regression tasks)
+    - Compared the performance of different techniques
 
 
 6. Hyperparameter Tuning:
