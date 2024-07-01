@@ -86,7 +86,9 @@
 
 - Our analysis yielded the following key findings:
 
-1. Model Performance: xxxx
+1. Model Performance:
+
+<img width="255" alt="Screenshot 2024-07-01 at 9 20 31 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/08a3c522-b58c-4e50-a093-1473c5e9d6c6">
 
 2. Key Predictive Features:
 
@@ -206,9 +208,7 @@
 
 # Outline of project
 
-1. Link to Exploratory Data Analysis Notebook
-2. Link to Model Development and Evaluation Notebook
-3. Link to Final Results and Interpretation Notebook
+1. 
 
 # Contact and Further Information
 
