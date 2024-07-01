@@ -147,12 +147,16 @@
       - High BMI is correlated with higher hypertension risk.
       - Thresholds show that many individuals in the high-risk category fall into overweight and obese ranges.
 
+<img width="792" alt="Screenshot 2024-07-01 at 9 33 53 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/54d1d28d-2f32-4992-8072-ca65aa8f6d6f">
+
 5. Blood Pressure Scatter Plot
 
     - Visualization: Scatter plot of sysBP vs. diaBP colored by Risk.
     - Insight:
       - There is a clear distinction between systolic and diastolic blood pressure in relation to hypertension risk.
       - High-risk individuals generally have higher systolic and diastolic blood pressures.
+     
+  <img width="845" alt="Screenshot 2024-07-01 at 8 42 49 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ed35c40a-7089-4176-a230-116fd5c88f87">
         
 6. Correlation Heatmap
 
@@ -190,10 +194,13 @@
 
 - Strong correlation observed between systolic and diastolic blood pressure
 - Age correlates with several other features
+- Feature importance from Linear Regression, Ridge Regression, and Lasso Regression models.
   
-<img width="845" alt="Screenshot 2024-07-01 at 8 42 49 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ed35c40a-7089-4176-a230-116fd5c88f87">
+<img width="776" alt="Screenshot 2024-07-01 at 9 27 34 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/c6bce7e7-a714-45e6-93f4-afa5e46f8f7e">
 
+<img width="742" alt="Screenshot 2024-07-01 at 9 27 40 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/599b45c1-e4a5-4a82-8a48-c174c096023d">
 
+<img width="749" alt="Screenshot 2024-07-01 at 9 27 46 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/3cd8d0b9-7a78-4244-ae85-028058a916f4">
 
 
 # Next steps
