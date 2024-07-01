@@ -26,9 +26,6 @@
 
   <img width="511" alt="Screenshot 2024-07-01 at 8 37 53 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/9456d8c9-3156-4031-bd75-0fc7da4b4e7c">
 
-  <img width="706" alt="Screenshot 2024-07-01 at 8 41 33 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/03b1ba4e-2bfa-4614-8bfa-20e3305bc4d0">
-
-
 
 # Methodology
 - Our approach followed these key steps:
@@ -140,6 +137,8 @@
     - Visualization: Count plot of male variable with Risk as hue.
     - Insight:
         - Males have a slightly higher proportion of high-risk cases compared to females.
+
+    <img width="706" alt="Screenshot 2024-07-01 at 8 41 33 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/03b1ba4e-2bfa-4614-8bfa-20e3305bc4d0">
 
 4. BMI Distribution
 
