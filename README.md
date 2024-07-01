@@ -83,7 +83,23 @@
 
 1. Model Performance:
 
-<img width="255" alt="Screenshot 2024-07-01 at 9 20 31 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/08a3c522-b58c-4e50-a093-1473c5e9d6c6">
+<img width="342" alt="Screenshot 2024-07-01 at 9 49 04 PM" src="https://github.com/Ohmae22/Capstone-Project/assets/88304497/ea25c5d9-9596-45f5-96e5-2d0a2e1a5239">
+
+  - Key Observations:
+    
+    - Improvement with Feature Engineering:
+      a) Both Linear Regression and Ridge Regression models showed improvement in performance when polynomial features were added. This is evidenced by a decrease in MSE and an increase in R^2 values.
+      b) Specifically, the MSE for Linear Regression dropped from 0.489975 to 0.475583, and the R^2 value increased from 0.498800 to 0.513522.
+      c) Similarly, Ridge Regression saw a decrease in MSE from 0.489973 to 0.475056, and the R^2 value increased from 0.498802 to 0.514061.
+
+    - Lasso Regression Performance:
+      a) The Lasso Regression model did not show any improvement with the addition of polynomial features. The MSE and R^2 values remained the same, indicating that Lasso Regression did not benefit from the feature engineering in this context.
+  
+    - Best Performing Model:
+    a) The best performing model overall is the Ridge Regression with Polynomial Features, with the lowest MSE of 0.475056 and the highest R^2 value of 0.514061. This suggests that Ridge Regression with polynomial features captures the underlying patterns in the data more effectively compared to other models.
+
+    - Feature Engineering Effectiveness:
+    a) The use of polynomial features has proven to be effective in improving the performance of Linear and Ridge Regression models, but not for Lasso Regression. This indicates that feature engineering can be highly beneficial but its impact can vary depending on the model used.
 
 2. Key Predictive Features:
 
