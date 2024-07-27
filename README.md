@@ -109,12 +109,36 @@
   d) Diastolic Blood Pressure (diaBP)
   e) Total Cholesterol (totChol)
 
-## 3. Risk Factors:
+## 3. Key Findings:
 
-  a) Age is strongly correlated with increased hypertension risk
-  b) Males have a slightly higher proportion of high-risk cases
-  c) Higher BMI is associated with increased risk
-  d) Current smokers and individuals with diabetes show higher risk
+  a) Best Prediction Method: We found that a technique called "Ridge Regression with Polynomial Features" worked best for predicting hypertension risk. This method was able to correctly identify risk levels about
+  51% of the time, which is a significant improvement over random guessing.
+
+  b) Most Important Risk Factors: The study identified several key factors that strongly influence hypertension risk:
+      - Systolic blood pressure (the top number in a blood pressure reading)
+      - Age
+      - Body Mass Index (BMI)
+      - Diastolic blood pressure (the bottom number in a blood pressure reading)
+      - Total cholesterol levels
+
+  c) Age and Gender Insights:
+      - Older individuals were more likely to be at high risk for hypertension.
+      - Men showed a slightly higher proportion of high-risk cases compared to women.
+
+  d) Lifestyle Factors:
+      - People with higher BMIs were more likely to be at risk for hypertension.
+      - Current smokers had a higher chance of being in the high-risk category.
+      - Individuals with diabetes were more likely to be at high risk for hypertension.
+
+## Implications:
+
+  a) Early Intervention: This tool could help doctors identify patients who might develop hypertension before they show symptoms. This early warning could lead to preventive measures like lifestyle changes or early treatment.
+
+  b) Personalized Health Plans: By knowing which factors are most important, healthcare providers can create more targeted health plans. For example, they might focus more on weight management for patients with high BMIs.
+
+  c) Public Health Campaigns: The findings could inform public health initiatives. For instance, anti-smoking campaigns could emphasize the link between smoking and hypertension risk.
+
+  d) Resource Allocation: Healthcare systems could use this information to allocate resources more effectively, focusing on high-risk individuals and the most impactful risk factors.
 
 
 # Dataset Characteristics:
