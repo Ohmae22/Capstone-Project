@@ -124,20 +124,22 @@
 ## 3. Key Findings:
 
   a) Best Prediction Method: We found that a technique called "Ridge Regression with Polynomial Features" worked best for predicting hypertension risk. This method was able to correctly identify risk levels about
-    51% of the time, which is a significant improvement over random guessing. However further optimisation with ensemble technique like Randon Forest further improved the prediction accuracy up to ~64% of R^2 score. Given the Random Forest's superior performance, it should be the primary       model used for predictions. However, the trade-off between performance and interpretability should be considered. While Random Forest performs best, it's less interpretable than linear models. Focus on accurately measuring and monitoring systolic blood pressure as it's the most crucial predictor. Consider developing a two-stage model: first identifying high-risk individuals based on easily obtainable information, then recommending more detailed testing for those individuals.
+    51% of the time, which is a significant improvement over random guessing.
+    
+  b) However further optimisation with ensemble technique like Randon Forest further improved the prediction accuracy up to ~64% of R^2 score. Given the Random Forest's superior performance, it should be the primary model used for predictions. However, the trade-off between performance and interpretability should be considered. While Random Forest performs best, it's less interpretable than linear models. Focus on accurately measuring and monitoring systolic blood pressure as it's the most crucial predictor. Consider developing a two-stage model: first identifying high-risk individuals based on easily obtainable information, then recommending more detailed testing for those individuals.
 
-  b) Most Important Risk Factors: The study identified several key factors that strongly influence hypertension risk:
+  c) Most Important Risk Factors: The study identified several key factors that strongly influence hypertension risk:
       - Systolic blood pressure (the top number in a blood pressure reading)
       - Age
       - Body Mass Index (BMI)
       - Diastolic blood pressure (the bottom number in a blood pressure reading)
       - Total cholesterol levels
 
-  c) Age and Gender Insights:
+  d) Age and Gender Insights:
       - Older individuals were more likely to be at high risk for hypertension.
       - Men showed a slightly higher proportion of high-risk cases compared to women.
 
-  d) Lifestyle Factors:
+  e) Lifestyle Factors:
       - People with higher BMIs were more likely to be at risk for hypertension.
       - Current smokers had a higher chance of being in the high-risk category.
       - Individuals with diabetes were more likely to be at high risk for hypertension.
