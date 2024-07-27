@@ -105,8 +105,10 @@
         - a) The Random Forest model outperforms all other models, achieving the highest R^2 score of 0.640824. This indicates that the Random Forest explains about 64% of the variance in the target variable (hypertension risk).
         - b) The Voting Ensemble comes in second with an R^2 score of 0.575249, suggesting that combining multiple models does improve performance over individual models, but not as much as the Random Forest alone.
           
-     <img width="594" alt="Screenshot 2024-07-27 at 2 15 58 PM" src="https://github.com/user-attachments/assets/69d52b76-0808-425d-985a-bc8ddf0dec3d">
+
+    <img width="594" alt="Screenshot 2024-07-27 at 2 15 58 PM" src="https://github.com/user-attachments/assets/69d52b76-0808-425d-985a-bc8ddf0dec3d">
      
+
       <img width="1039" alt="Screenshot 2024-07-27 at 2 16 19 PM" src="https://github.com/user-attachments/assets/43b18a98-cb5d-49db-9ef2-397de07e8bf3">
 
       
