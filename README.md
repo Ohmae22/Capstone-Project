@@ -59,7 +59,7 @@
       b) Linear Regression
       c) Ridge Regression
       d) Lasso Regression
-
+    
 ## 5. Model Evaluation:
 
     - Utilized cross-validation to ensure robust performance estimates
@@ -67,9 +67,10 @@
     - Compared the performance of different techniques
 
 
-## 6. Hyperparameter Tuning:
+## 6. Hyperparameter Tuning & Ensemble technique:
 
     - Performed GridSearchCV on the best-performing model to optimize its parameters
+    - Optimisation with Ensemble technique with Randon Forest
 
 
 ## 7. Interpretation and Insights:
